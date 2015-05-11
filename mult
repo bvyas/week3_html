@@ -1,0 +1,15 @@
+<?php
+
+function multiply($array)
+{
+	number_of_values = count($array);
+	foreach($array as value)
+	{
+		$mul = $value * 5; 
+		echo $mul . ' ';
+	}
+		
+}
+$arr = array(2,4,10,16);
+multiply($arr);
+?>
